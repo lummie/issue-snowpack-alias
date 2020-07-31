@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test": "karma start --coverage",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "@open-wc/rollup-plugin-html": "^1.1.0",
+    "@open-wc/testing": "^2.5.18",
+    "@open-wc/testing-karma": "^3.4.4",
+    "@snowpack/app-scripts-lit-element": "^1.2.0",
+    "@snowpack/plugin-webpack": "^1.5.0",
+    "prettier": "^2.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "snowpack": "^2.7.3"
+  }
+}
